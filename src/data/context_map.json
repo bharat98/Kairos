@@ -1,0 +1,27 @@
+{
+  "primary_goals": [
+    {
+      "goal": "Career Growth",
+      "deadline": null,
+      "description": "Advance toward your primary professional objectives.",
+      "priority": "HIGH"
+    },
+    {
+      "goal": "Health",
+      "deadline": null,
+      "description": "Maintain sustainable physical and mental wellbeing.",
+      "priority": "HIGH"
+    },
+    {
+      "goal": "Quality of Life",
+      "deadline": null,
+      "description": "Keep daily maintenance and life admin under control.",
+      "priority": "MEDIUM"
+    }
+  ],
+  "active_projects": [],
+  "skill_gaps": [],
+  "recent_focus_areas": [],
+  "critical_deadlines": [],
+  "identity_context": "Template context map. Regenerate locally via /refresh_context to create personalized context from your own vault."
+}
