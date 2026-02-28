@@ -350,7 +350,7 @@ async def query_command(update: Update, context: ContextTypes.DEFAULT_TYPE):
     status_msg = await update.message.reply_text("🔍 Searching personal knowledge base...")
     
     # 1. Load Vault Context
-    vault_context = await triage_engine._load_context()
+    vault_context = triage_engine._load_context()
     
     # 2. Load Recent Tasks from DB
     db_context = "No recent tasks found in database."
@@ -597,7 +597,7 @@ async def handle_text(update: Update, context: ContextTypes.DEFAULT_TYPE):
         # Process the query (reuse logic from query_command)
         log_audit("query", f"User {update.effective_user.id}: {text}")
         status_msg = await update.message.reply_text("🔍 Searching personal knowledge base...")
-        vault_context = await triage_engine._load_context()
+        vault_context = triage_engine._load_context()
         db_context = "No recent tasks found in database."
         try:
             conn = get_connection()
