@@ -4,7 +4,7 @@ Strategic life advisor bot on Telegram that triages tasks against long-term goal
 
 ## Repositories
 - Code: https://github.com/bharat98/Kairos
-- Docs: https://github.com/bharat98/Kairos-docs
+- Docs: https://github.com/bharat98/Kairos-docs [Private right now]
 
 ## Local Paths (Examples)
 - Windows: `C:\path\to\Kairos`
